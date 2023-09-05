@@ -200,7 +200,6 @@ q{
 .online-games-cards{
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     gap: 20px;
 }
 .online-games-card img{
@@ -215,7 +214,7 @@ q{
 }
 /* online games section ends here */
 
-/*  play-instantly section styles starts here*/
+/*  play-instantly & play-games section styles starts here*/
 .play-instantly-section, .play-games-section{
     display: flex;
     justify-content: space-around;
@@ -262,4 +261,36 @@ q{
     bottom: 120px;
     margin-left: 310px;
 }
-/*  play-instantly section styles ends here*/
+/*  play-instantly & play-games section styles end here*/
+/* games gallery section styles start here */
+.games-gallery{
+    margin: 20px 150px;
+}
+.games{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap: 10px;
+    text-align: center;
+    align-content: center;
+    height: 30vh;
+    margin: 0;
+}
+.game{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    transition: border-color 0.5s;
+}
+.game:hover{
+    border: 1px solid red;
+    border-radius: 15px;
+    color: #8758F1;
+}
+.game img{
+    width: 2rem;
+}
+.game > h3{
+    font-size: 16px;
+}
+/* games gallery section styles end here */
