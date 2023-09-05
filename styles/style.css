@@ -353,3 +353,76 @@ q {
     color: #ffffff;
     text-align: center;
 }
+
+.hide{
+    display: none;
+}
+/* responsive styles */
+/* mobile version of the site */
+
+@media screen and (max-width:576px){
+       .banner{
+        padding: 20px;
+       }
+       .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px;
+        /* padding: 10px; */
+       }
+       .banner-image{
+        height: 20rem;
+        margin-bottom:10px;
+        padding-bottom: 0;
+       }
+       .nav-container,.gamer-container,.online-games-cards, .play-instantly-section, .play-games-section{
+        flex-direction: column;
+       }
+       .nav-menu>ul{
+        flex-direction: column;
+       }
+       .gamer-image img{
+        width: 20rem;
+       }
+       .gamer-text{
+        font-size: 20px;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       .gamer-text h1{
+        font-size: 20px;
+       }
+    
+       .play-instantly-section img{
+        width:15rem;
+        align-items: center;
+       }
+       .instant-img-two{
+        width: 1rem;
+        height: 10rem;
+       }
+       .play-games-img img{
+        width: 20rem;
+       }
+       .games-img-one{
+        width: 1rem;
+       }
+       .games-img-two{
+        width: 10%;
+        height: 10rem;
+        margin-left: 60px;
+       }
+       .play-games-text{
+        padding: 10px;
+        margin-bottom: 10px;
+       }
+       .games{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+       }
+       .footer{
+        margin: 0;
+        
+       }
+}
