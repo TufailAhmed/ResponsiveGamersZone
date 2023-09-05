@@ -186,17 +186,33 @@ q{
 .online-games-text{
     margin-bottom: 40px;
 }
+.online-games-text h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.online-games-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games-text p{
+    color: #a59f9f;
+    font-size: 18px;
+}
 .online-games-cards{
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
     gap: 20px;
 }
-.online-games-card{
-    
-}
 .online-games-card img{
     width: 15.5rem;
-    height:100%;
+    height:20rem;
+}
+.online-games-card p{
+    color: #3a3535;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 15px;
 }
 /* online games section ends here */
