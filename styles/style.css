@@ -83,9 +83,6 @@ body {
     gap: 300px;
     margin: 0 150px;
 }
-.banner-text{
-
-}
 .banner-text h2{
     color: #0B0223;
     font-size: 35px;
@@ -134,6 +131,47 @@ body {
     border-radius: 40px;
 }
 .banner-image img{
-    /* height: 50% */
     width:100%;
+}
+
+/* banner style ends here */
+/* gamer section styles here */
+.gamer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    
+}
+.gamer-container{
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 40px; */
+}
+.gamer-image img{
+    width: 650px;
+}
+.gamer-text{
+    text-align: right;
+}
+.gamer-text h1{
+    font-size: 35px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.gamer-text p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.gamer-text button{
+    margin-bottom: 20px;
+}
+.gamer-text > h4{
+    color: #888686;
+    font-size: 18px;
+}
+q{
+    font-size: 24px;
+    font-weight: 500;
 }
