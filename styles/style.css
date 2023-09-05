@@ -3,6 +3,8 @@
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -207,6 +209,9 @@ q {
 .online-games-card img {
   width: 15.5rem;
   height: 20rem;
+}
+.online-games-card-image:hover{
+    background-color: ;
 }
 .online-games-card p {
   color: #3a3535;
