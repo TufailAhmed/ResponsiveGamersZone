@@ -5,9 +5,7 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
-body {
-  /* margin: 50px; */
-}
+
 /* nav styles here */
 .nav-container {
   display: flex;
@@ -216,3 +214,52 @@ q{
     margin-top: 15px;
 }
 /* online games section ends here */
+
+/*  play-instantly section styles starts here*/
+.play-instantly-section, .play-games-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin: 20px 150px;
+}
+.play-instantly-text, .play-games-text{
+    margin-top: 100px;
+    padding:0 35px;
+}
+.play-instantly-title{
+    font-size: 35px;
+    text-align: right;
+}
+.play-games-title{
+    font-size: 35px;
+    text-align: left;
+}
+.play-instantly-title >span, .play-games-title >span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-description{
+    text-align: right;
+}
+.instant-img-one{
+    width: 25rem;
+    margin-left: 70px;
+    
+}
+.games-img-one{
+    width: 25rem;
+    
+}
+.instant-img-two{
+    width: 10rem;
+    position: relative;
+    bottom: 150px;
+}
+.games-img-two{
+    width: 10rem;
+    position: relative;
+    bottom: 120px;
+    margin-left: 310px;
+}
+/*  play-instantly section styles ends here*/
